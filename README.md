@@ -29,14 +29,7 @@ This task focuses on getting practice with higher order functions and callback f
 * [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
 
 ## Task 2: Array Methods
-
 Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array with 50 objects in it. The [array-methods.js](assignments/array-methods.js) file contains several challenges built around a fundraising 5K fun run event.
-## Array Questions
-* why is the word index, when used as a parameter, only recognized as the index of the item in the array when it is declared as a second parameter, but not when it is used as a single parameter?
-ex: let cars33 = inventory.filter((item, index) => index === inventory[32])
-* does `.filter()` produce a new array like `.map()` ?
-* `.reduce()` questions: is accumulator an array or just a value?
-
 
 
 * [ ] Review the contents of the [array-methods.js](assignments/array-methods.js) file.  
@@ -46,7 +39,6 @@ ex: let cars33 = inventory.filter((item, index) => index === inventory[32])
 * [ ] Notice the last three problems are up to you to create and solve.  This is an awesome opportunity for you to push your critical thinking about array methods, have fun with it.
 
 ## Task 3: Closures
-
 We have learned that closures allow us to access values in scope that have already been invoked (lexical scope).  
 
 **Hint: Utilize debugger statements in your code in combination with your developer tools to easily identify closure values.**
