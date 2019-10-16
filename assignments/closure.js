@@ -4,6 +4,29 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
+function house(){
+  console.log('welcome to my house')
+
+  function kitchen(){
+    console.log( 'this is where we cook')
+
+    function refrigerator(){
+      console.log( 'feeling hungry?')
+
+      function grabASnack(){
+        console.log('mmmm mac and cheese')
+      }
+      return grabASnack()
+
+    }
+    return refrigerator()
+    
+  }
+  return kitchen()
+
+}
+
+house()
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
